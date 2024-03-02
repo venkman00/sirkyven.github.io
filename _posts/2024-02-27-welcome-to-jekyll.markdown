@@ -12,6 +12,7 @@ categories: jekyll update
 * Old man and the sea
 * Walden
 * Beginning of Infinity
+* The Courage to be disliked by Ichiro Kishimi
 
 ## Read
 
@@ -32,7 +33,7 @@ categories: jekyll update
 * Notes from underground
 * The idiot
 * The Dobule
-* Nassim Taleb's book series.
+* Nassim Taleb's book series
 * Man's Search for meaning by Victor E. Frankl
 * How to win friends and influence people by Dale Carnegie
 * Robert Greene's book series
