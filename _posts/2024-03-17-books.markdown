@@ -13,6 +13,7 @@ categories: jekyll update
 * Walden
 * Beginning of Infinity
 * The Courage to be disliked by Ichiro Kishimi
+* Stories of your life and others by Ted Chiang
 
 ## Read
 
@@ -21,7 +22,7 @@ categories: jekyll update
 * What I Talk About When I Talk About Running by Haruki Murakami
 * Elon by Walter Isaacson
 * Zero to One by Peter Thiel
-    he's the most fascinating person in tech.
+    he's one of the most fascinating thinker in tech.
 
 
 
