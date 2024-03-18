@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "weekly work log"
+date:   2024-03-18 5:55:39 -0500
+categories: jekyll update
+---
+
+
+- [ ] Andrej Karpathy's video series.
+- [ ] Rewrite all the code blocks on my own eg: Softmax, Crossentropy, Attention, Transformer, and Convolutions.
+- [ ] The lil book of deep learning.
+- [ ] Train a GPT on Shakespeare data
+- [ ] Read 6 seminal paper
+  - [ ] Attention is all you need
+  - [ ] Stable-diffusion
+  - [ ] LayerNorm/BatchNorm/Rewrite on my own
+  - [ ] LeCun's seminal CNN paper
+  - [ ] Alec Radford's GPT paper
+- [ ] 10 LC
+- [ ] Designing Data Intensive applications. (DDIA)
+- [ ] System Design Interview: An insider's guide. (SDI)
+
+## 2024-03-18
+
+1. implemented cross-entropy, and attention mechanism and read Attention is all you need
+2. LC # and #
+3. Design Youtube Chapter(SDI), and DDIA Chapter 1.
