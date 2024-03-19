@@ -10,8 +10,8 @@ categories: jekyll update
 - [ ] Rewrite all the code blocks on my own eg: Softmax, Crossentropy, Attention, Transformer, and Convolutions.
 - [ ] The lil book of deep learning.
 - [ ] Train a GPT on Shakespeare data
-- [ ] Read 6 seminal paper
-  - [ ] Attention is all you need
+- [ ] Read 6 seminal papers
+  - [x] Attention is all you need
   - [ ] Stable-diffusion
   - [ ] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
@@ -25,3 +25,9 @@ categories: jekyll update
 1. implemented cross-entropy, and attention mechanism and read Attention is all you need
 2. LC # and #
 3. Design Youtube Chapter(SDI), and DDIA Chapter 1.
+
+## 2024-03-19
+
+1. 2 LC problems
+2. GPT Tokenizer
+3. DDIA Chapter 2
