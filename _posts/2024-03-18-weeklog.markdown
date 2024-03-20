@@ -31,3 +31,17 @@ categories: jekyll update
 1. 2 LC problems
 2. GPT Tokenizer
 3. DDIA Chapter 2
+
+## 2024-03-20
+
+1. 2 LC (1hr)
+2. DDIA Chapter 3 (1hr)
+3. Write a Transformer from scratch and run Shakespeare it(3hr)
+
+
+## Yet to read
+1. [Why GPTS are bad at math](https://www.beren.io/2023-02-04-Integer-tokenization-is-insane/)
+2. [solidgoldmagikarp](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)
+3. [Guzey on Morale](https://guzey.com/morale/)
+4. [consulting inspiration](https://www.speedshop.co)
+5. [nateberkopec](https://twitter.com/nateberkopec) Go through tweets and find important pointers to focus on. (is it important to be a ruby on rails dev?)
