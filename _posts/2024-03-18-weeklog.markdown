@@ -5,7 +5,6 @@ date:   2024-03-18 5:55:39 -0500
 categories: jekyll update
 ---
 
-
 - [ ] Andrej Karpathy's video series.
 - [ ] Rewrite all the code blocks on my own eg: Softmax, Crossentropy, Attention, Transformer, and Convolutions.
 - [ ] The lil book of deep learning.
@@ -16,7 +15,7 @@ categories: jekyll update
   - [ ] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
   - [ ] Alec Radford's GPT paper
-- [ ] 10 LC
+- [ ] 150 LC (72/150)
 - [ ] Designing Data Intensive applications. (DDIA)
 - [ ] System Design Interview: An insider's guide. (SDI)
 
@@ -38,6 +37,26 @@ categories: jekyll update
 2. DDIA Chapter 3 (1hr)
 3. Write a Transformer from scratch and run Shakespeare it(3hr)
 
+## 2024-03-21
+
+1. 5 LC
+2. Blues guitar (A scale)
+3. Write a Transformer from scratch and run Shakespeare it(3hr) (from yesterday.)
+4. SDI (1 chapter)
+
+## 2024-03-22
+Ok I have missed few things from past days so today's focus is to clear the backlog.
+I will write what I did today later tonight.
+
+## 2024-03-23
+Whole day went in to search an apartment, meeting friends and birthday party.
+
+## 2024-03-24
+Managed to do couple of LC. :(
+
+## 2024-03-25
+wow! backlog hasn't moved a bit. 72/150 LC so still I gotta to do around 78 problems and revision of some of the complicated or trying new ones. Can I increase my speed a lil bit every day? why don't I feel the rush to take care of these things and not worry about them agai$$n? It'd be easy right if they are done and changed my job will free up mental space for many activities like more dancing or play music?
+
 
 ## Yet to read
 1. [Why GPTS are bad at math](https://www.beren.io/2023-02-04-Integer-tokenization-is-insane/)
@@ -45,3 +64,19 @@ categories: jekyll update
 3. [Guzey on Morale](https://guzey.com/morale/)
 4. [consulting inspiration](https://www.speedshop.co)
 5. [nateberkopec](https://twitter.com/nateberkopec) Go through tweets and find important pointers to focus on. (is it important to be a ruby on rails dev?)
+
+
+## Technical papers
+1. [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+
+
+
+## Things I want to do but don't have time yet
+
+1. I would like to set up DJ/Production env and work on creating my own music like release an album, it doesn't have to be amazing just fun/something complete.
+2. I wanna compete at a Tango dance world championships? there's not many people working on it especially in BA.
+3. Do the StartingStrength Seminar and Ido Portal workshops as well.
+4. Brazil live in friend I made in Peru's town, close to amazon and also learn Capoeira from the local masters.
+
+
+
