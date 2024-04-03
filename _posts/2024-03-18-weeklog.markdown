@@ -67,6 +67,27 @@ missed last two days, bit worried about health. Taking measures to course correc
 plan move in tomorrow?? let me call them and see.. schedule at 4 and Go to wedding on Friday? I need to buy new shirts at least?
 
 
+## 2024-04-03
+
+Ok things are not going as planned or hoped!!!
+haven't taken care of the list mentioned above and moved to a new apartment and going to start focusing on coding from tonight/tomorrow and hopefully fix the allergies(lord, have mercy on me!!).
+Listening to a lot of George Hotz streams, and Naval/David Deutsch and wanna learn some hard stuff enough of being stupid and not have more mental models like mentioned in Charlie's Almanack.
+
+I failed as a developer!
+How do I fix it? what can I do it next 6 months to bring this on track?
+
+## 2024-04-04
+woke up: 9am, went out for a walk.
+work: 10am, just checking the chats and reorienting my head to work on it after some Caffeine
+meetings: 10:30 -> 12pm.
+
+
+## Ideas
+
+1. Use GPT as a backend to be a financial advisor and help with saving more, can be a plugin and mostly useful for me.
+
+
+
 ## Yet to read
 1. [Why GPTS are bad at math](https://www.beren.io/2023-02-04-Integer-tokenization-is-insane/)
 2. [solidgoldmagikarp](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)

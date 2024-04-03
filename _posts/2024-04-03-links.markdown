@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "collection online essays."
+date:   2024-04-02 5:55:39 -0500
+categories: jekyll update
+---
+
+
+[How to be a hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
