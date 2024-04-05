@@ -111,3 +111,16 @@ in next two weeks: finish 150 problems, 2 system design books, and revise.
 2. I wanna compete at a Tango dance world championships? there's not many people working on it especially in BA.
 3. Do the StartingStrength Seminar and Ido Portal workshops as well.
 4. Brazil live in friend I made in Peru's town, close to amazon and also learn Capoeira from the local masters.
+
+
+## weekend projects:
+
+[Clojure](https://www.braveclojure.com/writing-macros/]) ideally instead of reading that book alone, I wanna build some kinda application! if not application may be like to-do list web app?
+
+  1. server
+  2. routes, accepting http requests, able to send response in json/html
+  3. can I not use frameworks?
+  4. storage db calls
+  5. authentication?
+  6. writing test cases?
+  7. can I also GPT backend give some useful stuff to take care of something, may be even user writes a todo item and specify details GPT can find how long would it take to finish and useful ideas to finish this
