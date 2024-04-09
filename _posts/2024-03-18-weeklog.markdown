@@ -85,6 +85,15 @@ meetings: 10:30 -> 12pm.
 
 in next two weeks: finish 150 problems, 2 system design books, and revise.
 
+## 2024-04-08
+
+1. 5 LC (90/150)
+2. Saw an epic eclipse
+3. played guitar for an hour
+4. Reading structure and interpretation of computer programs.
+
+I feel like I'm still super slow and can observe energy drop in the evening.
+
 
 ## Ideas
 
