@@ -15,7 +15,7 @@ categories: jekyll update
   - [ ] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
   - [ ] Alec Radford's GPT paper
-- [ ] 150 LC (72/150)
+- [ ] 150 LC (90/150)
 - [ ] Designing Data Intensive applications. (DDIA)
 - [ ] System Design Interview: An insider's guide. (SDI)
 
@@ -94,6 +94,13 @@ in next two weeks: finish 150 problems, 2 system design books, and revise.
 
 I feel like I'm still super slow and can observe energy drop in the evening.
 
+
+## 2024-04-15
+1. LC (104/150) will solve 7 problems today! one of the goals for this week is to finish 150 problems and start revising.
+2. SDI and also reading programming pearls.
+3. W.T
+
+J.H posted a document on python network programming, gotta check it out, bookmarked on X.
 
 ## Ideas
 
