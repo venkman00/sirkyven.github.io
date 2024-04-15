@@ -11,10 +11,13 @@ categories: jekyll update
 
 [Conscience of a Hacker](http://phrack.org/issues/7/3.html)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 ## Ideas to work on
 [Scheme in Haskell](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+=======
+>>>>>>> a399da1 (04-15-2024)
 =======
 >>>>>>> a399da1 (04-15-2024)
