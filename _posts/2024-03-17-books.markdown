@@ -43,3 +43,9 @@ categories: jekyll update
 * White Noise
 * Atlas Shrugged.
 * Thus Spoke Zarathrusta(?)
+
+
+## Recommendations:
+
+[Danmace](https://danmace.com/books-for-filmmakers-to-turn-boring-storytelling-into-engaging-narratives/)
+

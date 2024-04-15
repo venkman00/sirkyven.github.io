@@ -121,6 +121,14 @@ J.H posted a document on python network programming, gotta check it out, bookmar
 
 
 
+## Read
+
+[ecw](https://paulgraham.com/ecw.html)
+[hwh](https://paulgraham.com/hwh.html)
+[smart](https://paulgraham.com/smart.html)
+[determination](https://paulgraham.com/determination.html)
+
+
 ## Things I want to do but don't have time yet
 
 1. I would like to set up DJ/Production env and work on creating my own music like release an album, it doesn't have to be amazing just fun/something complete.
