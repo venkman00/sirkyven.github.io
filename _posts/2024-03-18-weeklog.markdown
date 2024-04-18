@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "weekly work log"
-date:   2024-03-18 5:55:39 -0500
+date:   2024-04-17 5:55:39 -0500
 categories: jekyll update
 ---
 
@@ -15,9 +15,10 @@ categories: jekyll update
   - [ ] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
   - [ ] Alec Radford's GPT paper
-- [ ] 150 LC (90/150)
+- [ ] 150 LC (108/150)
 - [ ] Designing Data Intensive applications. (DDIA)
 - [ ] System Design Interview: An insider's guide. (SDI)
+- [ ] J.H posted a document on python network programming, gotta check it out, bookmarked on X.
 
 ## 2024-03-18
 
@@ -94,13 +95,19 @@ in next two weeks: finish 150 problems, 2 system design books, and revise.
 
 I feel like I'm still super slow and can observe energy drop in the evening.
 
-
 ## 2024-04-15
+
 1. LC (104/150) will solve 7 problems today! one of the goals for this week is to finish 150 problems and start revising.
 2. SDI and also reading programming pearls.
 3. W.T
 
-J.H posted a document on python network programming, gotta check it out, bookmarked on X.
+## 2024-04-18
+
+1. Work on LC bit manipulations, DFS/BFS and IPO problem
+2. Decide on a song, perform at Lake on Apr 23rd
+3. Wrap on all the work on existing stories so that I can focus on innovation for the next two weeks.
+
+
 
 ## Ideas
 
