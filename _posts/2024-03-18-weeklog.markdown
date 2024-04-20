@@ -108,6 +108,11 @@ I feel like I'm still super slow and can observe energy drop in the evening.
 3. Wrap on all the work on existing stories so that I can focus on innovation for the next two weeks.
 
 
+## 2024-04-19
+
+I'm extremly unfocused at work, I know the work that I get to do is very boring and I don't want to loose the continuous stream of income as well (corporate slave?) so for now not taking any decisions to alter it.
+
+LC- Bitwise and Math related. (40 problems away from 150 and I want to finish them this weekend.)
 
 ## Ideas
 
@@ -125,7 +130,6 @@ I feel like I'm still super slow and can observe energy drop in the evening.
 
 ## Technical papers
 1. [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
-
 
 
 ## Read

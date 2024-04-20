@@ -8,13 +8,14 @@ categories: jekyll update
 
 ## Currently Reading
 
-* Stories of your life and others by Ted Chiang
-* Poor Charlie's Alamnack
-* Old man and the sea
-* Walden
-* Beginning of Infinity
-* The Courage to be disliked by Ichiro Kishimi
-
+* [ ] Stories of your life and others by Ted Chiang
+* [ ] Poor Charlie's Alamnack
+* [ ] Old man and the sea
+* [ ] Walden (boring pond haha)
+* [ ] Beginning of Infinity
+* [ ] The Courage to be disliked by Ichiro Kishimi
+* [ ] Corrections
+* [ ] White Noise
 
 ## Read
 
@@ -39,8 +40,6 @@ categories: jekyll update
 * Man's Search for meaning by Victor E. Frankl
 * How to win friends and influence people by Dale Carnegie
 * Robert Greene's book series
-* Corrections
-* White Noise
 * Atlas Shrugged.
 * Thus Spoke Zarathrusta(?)
 
