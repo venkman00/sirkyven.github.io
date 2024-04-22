@@ -114,6 +114,24 @@ I'm extremly unfocused at work, I know the work that I get to do is very boring 
 
 LC- Bitwise and Math related. (40 problems away from 150 and I want to finish them this weekend.)
 
+## 2024-04-21
+
+1. LC (120/150) Ok this is bad, I'm not making progress as I would like to, unless I finish 150 wouldn't be able to spend time on DL stuff.
+2. And haven't made progress on System Design.
+
+
+Bought a keyboard (Roland Go3) bit excited and it can be used a midi and also as a synth, I'm going to make some music!
+Next Tuesday, I'm going to do a open mic, show up and sing simple C Major or G major song with a simple strumm patterns.
+
+I'm going to finish LC 150 and DDIA (next two weeks) and going to have a mock with meta engineer at the end of this week
+or first day of next week. Also, start applying to other companies in this week, the following useful for next two to three weeks.
+- [ ] make sure resume is good to use
+- [ ] List down companies (Apple, X, XAI, Anthropic, Google, Meta, Netflix(?), Stripe, Gumroad, Basecamp, Hubspot(?))
+- [ ] Get the referrals for the positions.
+- [ ] Go through LC questions related to companies and see if I have missed any.
+- [ ] Go through System Design questions related to companies and see if I have missed any.
+
+
 ## Ideas
 
 1. Use GPT as a backend to be a financial advisor and help with saving more, can be a plugin and mostly useful for me.
