@@ -131,6 +131,14 @@ or first day of next week. Also, start applying to other companies in this week,
 - [ ] Go through LC questions related to companies and see if I have missed any.
 - [ ] Go through System Design questions related to companies and see if I have missed any.
 
+## 2024-04-23
+
+Another day of fight or flight, it's not good for my health. It's always been the same, why I can't plan and do things without reacting to situations all the fucking time. I can see people working, having fun but why is it so hard for me to plan few focused hours, make friends and hang outside. Am I gonna waste my life like this, not making a lot of money or building great products, or having a lot of friends or resting? what's the point of this bruh! all the stress and no fun.
+
+I can do better, because I can analyse the situation and find a solution. I'm not gonna suffer any more, if things get hard at work, I can just submit my resignation and if this country makes me too lonely can sell everything in few days go to bali to work with other digital nomads. I can always come back to usa on O1 visa, it's not that hard to get it. If I have skills to do it. I don't need money if I don't spend it hahaha so I need money.
+
+
+
 
 ## Ideas
 
@@ -164,7 +172,10 @@ or first day of next week. Also, start applying to other companies in this week,
 2. I wanna compete at a Tango dance world championships? there's not many people working on it especially in BA.
 3. Do the StartingStrength Seminar and Ido Portal workshops as well.
 4. Brazil live in friend I made in Peru's town, close to amazon and also learn Capoeira from the local masters.
+5. Learn to make pizza, bake cakes, pastries, indian desserts and make espresso.
 
+
+[Almond Buckwheat Cake](https://www.calisson.com/blog/en/financier-au-nougat-noir-et-au-sarrasin/)
 
 ## weekend projects:
 
@@ -177,3 +188,7 @@ or first day of next week. Also, start applying to other companies in this week,
   5. authentication?
   6. writing test cases?
   7. can I also GPT backend give some useful stuff to take care of something, may be even user writes a todo item and specify details GPT can find how long would it take to finish and useful ideas to finish this
+
+
+[Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+[Neetcode CheatSheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
