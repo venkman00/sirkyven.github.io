@@ -60,29 +60,29 @@ categories: jekyll update
 7. [ ] Corrections
 8. [ ] White Noise
 9. [ ] Cooked by M. Pollen
-10.[ ] Fooled by Randomness (listening to audio)
-11.[ ] Black Swan
-12.[ ] Antifragile
-13.[ ] Skin in the game
-14.[ ] Brothers Karazamov
-15.[ ] Notes from underground
-16.[ ] Crime and Punishment
-17.[ ] The Double
-18.[ ] The Rational Optimist
-19.[ ] Influence
-20.[ ] Fabric of Reality
-21.[ ] Selfish Gene
-22.[ ] Exhalation by Ted Chiang
-23.[ ] Awakening of the Intelligence
-24.[ ] Total Freedom
-25.[ ] Cosmos by Carl Sagan
-26.[ ] Behave
-27.[ ] Outlive
-28.[ ] The Origin of Spices
-29.[ ] Guns, Germs, and Steel
-30.[ ] Red Queen
-31.[ ] Zen and Art of motorcycle maintance
-32.[ ] Debt
-33.[ ] Tools/Lessons for living
-34.[ ] Man's search for meaning.
-35.[ ] _I will decide once I finish the ones I have._
+10. [ ] Fooled by Randomness (listening to audio)
+11. [ ] Black Swan
+12. [ ] Antifragile
+13. [ ] Skin in the game
+14. [ ] Brothers Karazamov
+15. [ ] Notes from underground
+16. [ ] Crime and Punishment
+17. [ ] The Double
+18. [ ] The Rational Optimist
+19. [ ] Influence
+20. [ ] Fabric of Reality
+21. [ ] Selfish Gene
+22. [ ] Exhalation by Ted Chiang
+23. [ ] Awakening of the Intelligence
+24. [ ] Total Freedom
+25. [ ] Cosmos by Carl Sagan
+26. [ ] Behave
+27. [ ] Outlive
+28. [ ] The Origin of Spices
+29. [ ] Guns, Germs, and Steel
+30. [ ] Red Queen
+31. [ ] Zen and Art of motorcycle maintance
+32. [ ] Debt
+33. [ ] Tools/Lessons for living
+34. [ ] Man's search for meaning.
+35. [ ] _I will decide once I finish the ones I have._
