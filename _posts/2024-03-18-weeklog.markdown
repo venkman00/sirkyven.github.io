@@ -15,7 +15,7 @@ categories: jekyll update
   - [ ] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
   - [ ] Alec Radford's GPT paper
-- [ ] 150 LC (108/150)
+- [ ] 150 LC (126/150)
 - [ ] Designing Data Intensive applications. (DDIA)
 - [ ] System Design Interview: An insider's guide. (SDI)
 - [ ] J.H posted a document on python network programming, gotta check it out, bookmarked on X.

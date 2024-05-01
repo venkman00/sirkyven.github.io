@@ -24,9 +24,7 @@ categories: jekyll update
 * What I Talk About When I Talk About Running by Haruki Murakami
 * Elon by Walter Isaacson
 * Zero to One by Peter Thiel
-    he's one of the most fascinating thinker in tech.
-
-
+* Kitchen Confidential
 
 ## Backlog
 
@@ -48,3 +46,43 @@ categories: jekyll update
 
 [Danmace](https://danmace.com/books-for-filmmakers-to-turn-boring-storytelling-into-engaging-narratives/)
 
+
+
+
+## 35 weeks left in this year, how about I read 35 books.
+
+1. [ ] Stories of your life and others by Ted Chiang
+2. [ ] Poor Charlie's Alamnack
+3. [ ] Old man and the sea
+4. [ ] Walden
+5. [ ] Beginning of Infinity
+6. [ ] The Courage to be disliked by Ichiro Kishimi
+7. [ ] Corrections
+8. [ ] White Noise
+9. [ ] Cooked by M. Pollen
+10.[ ] Fooled by Randomness (listening to audio)
+11.[ ] Black Swan
+12.[ ] Antifragile
+13.[ ] Skin in the game
+14.[ ] Brothers Karazamov
+15.[ ] Notes from underground
+16.[ ] Crime and Punishment
+17.[ ] The Double
+18.[ ] The Rational Optimist
+19.[ ] Influence
+20.[ ] Fabric of Reality
+21.[ ] Selfish Gene
+22.[ ] Exhalation by Ted Chiang
+23.[ ] Awakening of the Intelligence
+24.[ ] Total Freedom
+25.[ ] Cosmos by Carl Sagan
+26.[ ] Behave
+27.[ ] Outlive
+28.[ ] The Origin of Spices
+29.[ ] Guns, Germs, and Steel
+30.[ ] Red Queen
+31.[ ] Zen and Art of motorcycle maintance
+32.[ ] Debt
+33.[ ] Tools/Lessons for living
+34.[ ] Man's search for meaning.
+35.[ ] _I will decide once I finish the ones I have._
