@@ -143,6 +143,21 @@ I can do better, because I can analyse the situation and find a solution. I'm no
 Brother was here and didnt do much, scheduled a meta interview in 2 weeks and I'm gonna crack the interview this time.
 
 
+## 2024-05-28
+
+so going to finish transformers, and gonna setup comfy UI in local. hard part is to find intersting data, fine tune and see if I get what I want. css-for-js(?), not sure how long it's gonna take but it's my best bet to become comfortable cause backend can be easy in most cases.
+still not sure, how I'm going to apply for AI roles? may be engineer for an AI team may be I need better understaning of deployment or writing system level code or GPU handling code? (George Hotz acquires this knowledge really quickly.)
+
+After under performance with meta interview, feel like need to focus a bit more, it's not useful to loose confidence. I'm going to do a mock interview with a friend this week and also going to apply to other companies. 
+
+Sat'Day -> 8AM Walk
+3x weight training
+1x swim
+1x run
+2x Yoga
+
+
+
 ## Ideas
 
 1. Use GPT as a backend to be a financial advisor and help with saving more, can be a plugin and mostly useful for me.
