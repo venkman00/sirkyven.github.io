@@ -5,17 +5,17 @@ date:   2024-04-17 5:55:39 -0500
 categories: jekyll update
 ---
 
-- [ ] Andrej Karpathy's video series.
-- [ ] Rewrite all the code blocks on my own eg: Softmax, Crossentropy, Attention, Transformer, and Convolutions.
-- [ ] The lil book of deep learning.
-- [ ] Train a GPT on Shakespeare data
+- [x] Andrej Karpathy's video series.
+- [x] Rewrite all the code blocks on my own eg: Softmax, Crossentropy, Attention, Transformer, and Convolutions.
+- [x] The lil book of deep learning.
+- [x] Train a GPT on Shakespeare data
 - [ ] Read 6 seminal papers
   - [x] Attention is all you need
   - [ ] Stable-diffusion
-  - [ ] LayerNorm/BatchNorm/Rewrite on my own
+  - [x] LayerNorm/BatchNorm/Rewrite on my own
   - [ ] LeCun's seminal CNN paper
   - [ ] Alec Radford's GPT paper
-- [ ] 150 LC (126/150)
+- [x] 150 LC
 - [ ] Designing Data Intensive applications. (DDIA)
 - [ ] System Design Interview: An insider's guide. (SDI)
 - [ ] J.H posted a document on python network programming, gotta check it out, bookmarked on X.
@@ -148,7 +148,7 @@ Brother was here and didnt do much, scheduled a meta interview in 2 weeks and I'
 so going to finish transformers, and gonna setup comfy UI in local. hard part is to find intersting data, fine tune and see if I get what I want. css-for-js(?), not sure how long it's gonna take but it's my best bet to become comfortable cause backend can be easy in most cases.
 still not sure, how I'm going to apply for AI roles? may be engineer for an AI team may be I need better understaning of deployment or writing system level code or GPU handling code? (George Hotz acquires this knowledge really quickly.)
 
-After under performance with meta interview, feel like need to focus a bit more, it's not useful to loose confidence. I'm going to do a mock interview with a friend this week and also going to apply to other companies. 
+After under performance with meta interview, feel like need to focus a bit more, it's not useful to loose confidence. I'm going to do a mock interview with a friend this week and also going to apply to other companies.
 
 Sat'Day -> 8AM Walk
 3x weight training
