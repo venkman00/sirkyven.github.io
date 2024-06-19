@@ -1,29 +1,39 @@
 ---
 layout: post
-title:  "75 Hard"
+title:  "Movies"
 date:   2024-06-08 23:55:39 -0500
 categories: jekyll update
 ---
 
-[Reddit](https://old.reddit.com/r/75HARD) <br/>
+#### Recently Watched
+    1. Death of Stalin
+    2. Run Lola Run
+    3. Furiosa
+    4. Ikiru
+    5. Liar
+    6. Mean Streets
 
-What's the end goal and I'm gonna finish this on August 23rd. <br/>
-Goal 1: Show abs on a paddle board on colarado river. <br/>
-Goal 2: Increased confidence and online dating opportunities. <br/>
-Goal 3: Read more books, if it's a good book I wont' stop at 10 pages so I may end up reading more each day. <br/>
+#### Most Rewatched Movies
+    1. Skyfall
+    2. Sicario
+    3. Oppenheimer
+    4. The Shining
+    5. The Conjuring
+    6. Lord of the Rings
+    7. Bullet Train
+    8. No Country for old men
+    9. Inception
+    10. Interstellar
+    11. Dark Knight Rises
+    12. The Girl with the dragon tattoo.
+    13. Ratatouille
+    14. Wall-E
+    15. Creed
 
-
-### The Rules:
-1. Follow a diet. Zero cheat meals. No alcohol.
-2. Workout 2x a day, ≥45mins each. 1 workout must be outside.
-3. Drink 1 gallon (3.8L) of water.
-4. Read 10 pages of a non-fiction self-improvement/business book.
-5. Take a progress picture. (If you fail to do any of the above, you restart at Day 1.)
-
-
-## Day  1:
-
-- Americano with heavy cream.
-- Salad with lil bit chicken (gotta cook at home.)
-- Reading Getting things done cause I get overwhelmed by number of open loops and also it suprises me that no one teach at school or college on how to get organized, and do a project.
-- Also, reading Skin in the game and Lakshman recommended me to read the psychology of money (read notes).
+#### *YET TO WATCH*
+    1. Boy and The Heron
+    2. Irma Vep
+    3. Apu triology
+    4. Apocolypse Now
+    5. Idiocricy (I tried couple of times and it's boring)
+    6. David Lynch Movies (haven't seen any so far, guilty.)
