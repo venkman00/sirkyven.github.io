@@ -13,3 +13,19 @@ These are main things I want to accomplish in next 15 days.
 - At least 15 System Design questions answered!
 
 
+
+
+ok failed
+
+so completing 6.006 and rewriting code in python
+
+
+4hr - 6hr focused work
+work till L14(finish graphs)
+do two quizes and problem sets
+time bound 6hrs
+
+lecture and recitation notes first anf then do the problem sets.
+write fucking code.
+
+odessey!! till book 10.
