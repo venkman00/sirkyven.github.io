@@ -20,3 +20,12 @@ categories: jekyll update
   - Understanding tradeoffs
   - Data utilization
   - Performance optimizations
+
+
+### Reading
+- [ ] The elements of computing systems
+- [ ] Code
+- [ ] xv6 (mini operating systems)
+- [ ] Building an interpreter in Go
+- [ ] The Go Programming Language
+- [ ] SICP (Structure and Interpretation of Computer Programs)
