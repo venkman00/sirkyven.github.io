@@ -29,3 +29,7 @@ categories: jekyll update
 - [ ] Building an interpreter in Go
 - [ ] The Go Programming Language
 - [ ] SICP (Structure and Interpretation of Computer Programs)
+
+
+[Computer Enhance](https://www.computerenhance.com/p/instruction-decoding-on-the-8086)
+[Missing Sem](https://missing.csail.mit.edu/2020/course-shell/)
