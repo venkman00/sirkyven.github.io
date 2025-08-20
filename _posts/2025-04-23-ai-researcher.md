@@ -18,3 +18,6 @@ Arch: Transformer, Mixture of Experts, ResNet
 how do I get the job as a research engineer or build my own product.. what type of product, should I focus on application layer or put more focus on research. 
 
 things to read: AlphaGoZero
+
+
+I lost my track! too stressed out and lost focus, back in rhythm and volunteered for a paper walkthrough, intend change my approach, drive and planning.
