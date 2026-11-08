@@ -33,36 +33,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      # Handle self-hosted runners that don't have Ruby pre-installed
-      - name: Install Ruby (Self-hosted runners)
-        if: runner.environment == 'self-hosted'
-        run: |
-          # Install ruby-build if not present
-          if ! command -v ruby-build &> /dev/null; then
-            git clone https://github.com/rbenv/ruby-build.git /tmp/ruby-build
-            sudo /tmp/ruby-build/install.sh
-          fi
-          
-          # Install Ruby 3.1.4 if not already installed
-          if [ ! -d "/opt/hostedtoolcache/Ruby/3.1.4/x64" ]; then
-            sudo mkdir -p /opt/hostedtoolcache/Ruby/3.1.4
-            sudo ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
-            sudo touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
-          fi
-          
-          # Add Ruby to PATH
-          echo "/opt/hostedtoolcache/Ruby/3.1.4/x64/bin" >> $GITHUB_PATH
-      
       - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
+          # ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

@@ -1,9 +1,12 @@
 ---
-layout: post
-title:  "Daily Work Journal - August 19, 2025"
-date:   2025-08-19 12:00:00 -0500
-categories: journal work-log
+title: Daily work journal
+date: 2025-08-19
+tags: [journal]
+redirect_from:
+  - /journal/work-log/2025/08/19/daily-log.html
 ---
+
+Related: [[AI researcher]]
 
 ## Current reading list:
 

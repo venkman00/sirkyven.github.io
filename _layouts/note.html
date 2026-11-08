@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<header>
+  <h1>{{ page.title }}</h1>
+  <div class="meta font-ui">
+    {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %}
+    {% if page.last_modified_at and page.date %}{% assign created = page.date | date: "%Y-%m-%d" %}{% assign updated = page.last_modified_at | date: "%Y-%m-%d" %}{% if updated > created %}<span class="muted"> · updated {{ page.last_modified_at | date: "%B %-d, %Y" }}</span>{% endif %}{% endif %}
+  </div>
+</header>
+
+<article>
+  <content>
+    {{ content }}
+  </content>
+</article>
+
+{% if page.backlinks.size > 0 %}
+<section class="backlinks">
+  <h2 class="font-ui">Links to this note</h2>
+  <ul>
+  {% for backlink in page.backlinks %}
+    <li>
+      <a class="internal-link" href="{{ site.baseurl }}{{ backlink.url }}{%- if site.use_html_extension -%}.html{%- endif -%}">{{ backlink.title }}</a>
+      <div class="muted small">{{ backlink.excerpt | strip_html | replace: "[[", "" | replace: "]]", "" | truncatewords: 20 }}</div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}

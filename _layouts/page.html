@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% if page.title and page.id != "home" %}<header><h1>{{ page.title }}</h1></header>{% endif %}
+<article>
+  <content>
+    {{ content }}
+  </content>
+</article>

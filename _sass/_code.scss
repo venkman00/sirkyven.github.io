@@ -1,0 +1,21 @@
+// Rouge syntax highlighting with Flexoki accents
+:root {
+  --sx-comment: #878580; --sx-keyword: #66800B; --sx-string: #24837B;
+  --sx-number: #5E409D; --sx-func: #BC5215; --sx-type: #AD8301; --sx-name: #205EA6;
+}
+body.theme-dark {
+  --sx-comment: #878580; --sx-keyword: #879A39; --sx-string: #3AA99F;
+  --sx-number: #8B7EC8; --sx-func: #DA702C; --sx-type: #D0A215; --sx-name: #4385BE;
+}
+div.highlight { display: grid; }
+.highlight pre { margin: 0 0 1.2em; }
+.highlight {
+  .c, .c1, .cm, .cs, .cp { color: var(--sx-comment); font-style: italic; }
+  .k, .kd, .kn, .kp, .kr, .kc, .ow { color: var(--sx-keyword); }
+  .kt, .nc, .nn { color: var(--sx-type); }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: var(--sx-string); }
+  .m, .mi, .mf, .mh, .mo, .il { color: var(--sx-number); }
+  .nf, .fm, .nd { color: var(--sx-func); }
+  .na, .nb, .bp, .nt, .nv, .vc, .vg, .vi { color: var(--sx-name); }
+  .err { color: inherit; background: none; }
+}
