@@ -29,9 +29,9 @@ body.theme-dark {
   color-scheme: dark;
 }
 
-$font-text: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
-$font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
-$font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+$font-text: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+$font-ui: $font-text;
+$font-mono: ui-monospace, SFMono-Regular, "Cascadia Code", "IBM Plex Mono", "Roboto Mono", Menlo, Monaco, Consolas, monospace;
 
 html { -webkit-text-size-adjust: 100%; }
 
@@ -40,7 +40,7 @@ body {
   color: var(--tx);
   font-family: $font-text;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.5;
   max-width: 38rem;
   margin: 0 auto;
   padding: 0 16px;
@@ -62,9 +62,9 @@ nav {
   align-items: center;
   gap: 1rem;
   padding: 1.5rem 0 3rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 
-  .nav-title { flex-grow: 1; font-weight: 600; }
+  .nav-title { flex-grow: 1; font-weight: 500; }
   .nav-links { display: flex; gap: 1rem; }
 }
 
@@ -97,16 +97,16 @@ nav {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-ui;
   line-height: 1.25;
-  font-weight: 600;
+  font-weight: 500;
   margin: 2em 0 0.5em;
   letter-spacing: -0.01em;
 }
-header h1 { font-size: 1.6rem; margin: 0 0 0.25em; }
+header h1 { font-size: 1.75rem; margin: 0 0 0.3em; letter-spacing: -0.02em; }
 article h1 { font-size: 1.4rem; }
 h2 { font-size: 1.2rem; }
 h3 { font-size: 1.05rem; }
 
-.meta { color: var(--tx-2); font-size: 0.85rem; margin-bottom: 2rem; }
+.meta { color: var(--tx-2); font-size: 1rem; margin-bottom: 2.5rem; }
 .meta time { display: inline; }
 
 p, ul, ol, blockquote, pre, table { margin: 0 0 1.2em; }
