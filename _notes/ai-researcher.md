@@ -23,4 +23,4 @@ things to read: AlphaGoZero
 
 I lost my track! too stressed out and lost focus, back in rhythm and volunteered for a paper walkthrough, intend change my approach, drive and planning.
 
-See also my [[Daily work journal]] for what I am reading and studying day to day.
+See also my [weekly log](/log) for what I am reading and trying day to day, starting with [[Week 34, 2025]].

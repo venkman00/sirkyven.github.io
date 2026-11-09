@@ -1,0 +1,31 @@
+---
+layout: page
+title: Notes
+permalink: /notes
+---
+
+<p>Everything in the garden, newest first. Notes link to each other, and each note lists the ones that point back to it.</p>
+
+<ul class="note-list">
+  {% assign notes = site.notes | where_exp: "n", "n.week == nil" | sort: "date" | reverse %}
+  {% for note in notes %}
+  <li>
+    <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%Y-%m-%d" }}</time>
+    <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2 id="weekly-log">Weekly log</h2>
+<p>What I try and learn each day, with a reflection at the end of every week.</p>
+
+{% assign weeks = site.notes | where_exp: "n", "n.week" | sort: "date" | reverse %}
+<ul class="note-list">
+  {% for w in weeks limit: 8 %}
+  <li>
+    <time datetime="{{ w.date | date_to_xmlschema }}">{{ w.date | date: "%Y-%m-%d" }}</time>
+    <a class="internal-link" href="{{ site.baseurl }}{{ w.url }}">{{ w.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% if weeks.size > 8 %}<p><a class="internal-link" href="{{ site.baseurl }}/log">All {{ weeks.size }} weeks →</a></p>{% else %}<p class="small"><a class="internal-link" href="{{ site.baseurl }}/log">Browse the log by year →</a></p>{% endif %}

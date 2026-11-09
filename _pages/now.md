@@ -11,4 +11,4 @@ permalink: /now
 - Building a database and an interpreter in Go
 - Studying system design, starting with *Designing Data-Intensive Applications*
 
-More detail lives in my [[Daily work journal]].
+Day-to-day detail lives in my [weekly log](/log).

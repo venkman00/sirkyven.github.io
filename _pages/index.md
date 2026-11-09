@@ -9,7 +9,7 @@ Hi, I'm Venky. I'm a software engineer learning machine learning and systems fro
 
 {% assign weeks = site.notes | where_exp: "n", "n.week" | sort: "date" | reverse %}
 {% if weeks.size > 0 %}{% assign w = weeks.first %}
-This week I'm logging what I try each day: [{{ w.title }}]({{ site.baseurl }}{{ w.url }}). Older weeks are in the [log](/log).
+I keep a [weekly log](/log) of what I try and learn each day. Latest: [{{ w.title }}]({{ site.baseurl }}{{ w.url }}).
 {% endif %}
 
 ## Notes
@@ -23,3 +23,5 @@ This week I'm logging what I try each day: [{{ w.title }}]({{ site.baseurl }}{{ 
     </li>
   {% endfor %}
 </ul>
+
+<p class="small"><a class="internal-link" href="{{ site.baseurl }}/notes">All notes and the weekly log →</a></p>

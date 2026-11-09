@@ -5,7 +5,7 @@ layout: default
 <header>
   <h1>{{ page.title }}</h1>
   <div class="meta font-ui">
-    {% if page.week %}<a class="internal-link plain" href="{{ site.baseurl }}/log">Log</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d" }} – {{ page.week_end | date: "%b %-d, %Y" }}</time>
+    {% if page.week %}<a class="internal-link plain" href="{{ site.baseurl }}/notes#weekly-log">Weekly log</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d" }} – {{ page.week_end | date: "%b %-d, %Y" }}</time>
     {% elsif page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %}
     {% if page.last_modified_at and page.date %}{% assign created = page.date | date: "%Y-%m-%d" %}{% assign updated = page.last_modified_at | date: "%Y-%m-%d" %}{% if updated > created %}<span class="muted"> · updated {{ page.last_modified_at | date: "%B %-d, %Y" }}</span>{% endif %}{% endif %}
   </div>

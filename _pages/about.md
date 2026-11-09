@@ -10,7 +10,7 @@ A few places to start:
 
 - [[Now|What I'm doing now]]
 - [[AI researcher]]: notes on learning to become a research engineer
-- [[Daily work journal]]: what I'm reading and working on
+- [Weekly log](/log): what I'm trying and learning each day, with a reflection every week
 - [All notes](/notes)
 
 ## Elsewhere
