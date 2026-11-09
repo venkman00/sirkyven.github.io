@@ -5,7 +5,8 @@ layout: default
 <header>
   <h1>{{ page.title }}</h1>
   <div class="meta font-ui">
-    {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %}
+    {% if page.week %}<a class="internal-link plain" href="{{ site.baseurl }}/log">Log</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d" }} – {{ page.week_end | date: "%b %-d, %Y" }}</time>
+    {% elsif page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% endif %}
     {% if page.last_modified_at and page.date %}{% assign created = page.date | date: "%Y-%m-%d" %}{% assign updated = page.last_modified_at | date: "%Y-%m-%d" %}{% if updated > created %}<span class="muted"> · updated {{ page.last_modified_at | date: "%B %-d, %Y" }}</span>{% endif %}{% endif %}
   </div>
 </header>
@@ -15,6 +16,16 @@ layout: default
     {{ content }}
   </content>
 </article>
+
+{% if page.week %}
+{% assign weeks = site.notes | where_exp: "n", "n.week" | sort: "date" %}
+{% for w in weeks %}{% if w.url == page.url %}{% assign i = forloop.index0 %}{% endif %}{% endfor %}
+{% assign prev_i = i | minus: 1 %}{% assign next_i = i | plus: 1 %}
+<nav class="week-nav font-ui" aria-label="Weeks">
+  <span>{% if i > 0 %}{% assign pw = weeks[prev_i] %}<a class="internal-link plain" href="{{ site.baseurl }}{{ pw.url }}">← {{ pw.title }}</a>{% endif %}</span>
+  <span>{% if next_i < weeks.size %}{% assign nw = weeks[next_i] %}<a class="internal-link plain" href="{{ site.baseurl }}{{ nw.url }}">{{ nw.title }} →</a>{% endif %}</span>
+</nav>
+{% endif %}
 
 {% if page.backlinks.size > 0 %}
 <section class="backlinks">

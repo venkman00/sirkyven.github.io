@@ -7,10 +7,15 @@ permalink: /
 
 Hi, I'm Venky. I'm a software engineer learning machine learning and systems from first principles. This is my [[About|digital garden]]: notes I keep coming back to and expanding over time. Some are finished, most are still growing.
 
+{% assign weeks = site.notes | where_exp: "n", "n.week" | sort: "date" | reverse %}
+{% if weeks.size > 0 %}{% assign w = weeks.first %}
+This week I'm logging what I try each day: [{{ w.title }}]({{ site.baseurl }}{{ w.url }}). Older weeks are in the [log](/log).
+{% endif %}
+
 ## Notes
 
 <ul class="note-list">
-  {% assign notes = site.notes | sort: "date" | reverse %}
+  {% assign notes = site.notes | where_exp: "n", "n.week == nil" | sort: "date" | reverse %}
   {% for note in notes %}
     <li>
       <time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: "%b %Y" }}</time>

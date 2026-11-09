@@ -3,6 +3,7 @@
 
 # frozen_string_literal: true
 require 'nokogiri'
+require 'uri'
 
 Jekyll::Hooks.register [:notes], :post_convert do |doc|
   convert_links(doc)
@@ -20,8 +21,14 @@ def convert_links(doc)
 
   if open_external_links_in_new_tab
     parsed_doc = Nokogiri::HTML::DocumentFragment.parse(doc.content)
+    site_host = URI(doc.site.config["url"].to_s).host rescue nil
     parsed_doc.css("a:not(.internal-link):not(.footnote):not(.reversefootnote)").each do |link|
+      href = link['href'].to_s
+      # Only links to other websites open in a new tab
+      next unless href =~ %r{\Ahttps?://}i
+      next if site_host && (URI(href).host rescue nil) == site_host
       link.set_attribute('target', '_blank')
+      link.set_attribute('rel', 'noopener')
     end
     doc.content = parsed_doc.inner_html
   end

@@ -1,0 +1,112 @@
+#!/usr/bin/env bash
+# Weekly log helper.
+#
+#   bin/log                 open this week's log (adds today's heading if missing)
+#   bin/log "tried X"       add a bullet under today's heading
+#   bin/log reflect         open this week's log at the reflection section
+#   bin/log publish         commit and push this week's log
+#   bin/log path            print the path of this week's file
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+today=$(date +%F)
+monday=$(date -j -v-Mon -f %F "$today" +%F)
+sunday=$(date -j -v+6d -f %F "$monday" +%F)
+week_id=$(date -j -f %F "$monday" +%G-W%V)          # e.g. 2026-W46
+week_num=$(date -j -f %F "$monday" +%V | sed 's/^0//')
+week_year=$(date -j -f %F "$monday" +%G)
+slug=$(echo "$week_id" | tr 'W' 'w')
+file="_notes/log/$slug.md"
+day_heading="## $(date +'%a, %b %-d')"
+
+mkdir -p _notes/log
+
+if [[ ! -f "$file" ]]; then
+  cat > "$file" <<EOF
+---
+title: Week $week_num, $week_year
+date: $monday
+week: $week_id
+week_end: $sunday
+permalink: /log/$slug
+---
+
+**Focus:**
+
+## Reflection
+
+- **What worked:**
+- **What didn't:**
+- **What I learned:**
+- **Next week:**
+EOF
+  echo "Created $file"
+fi
+
+# Insert today's heading just above "## Reflection" if it isn't there yet.
+if ! grep -qxF "$day_heading" "$file"; then
+  awk -v h="$day_heading" '
+    /^## Reflection$/ && !done { print h; print ""; print "- "; print ""; done=1 }
+    { print }
+  ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+fi
+
+open_editor() {
+  local line=${1:-}
+  local editor=${VISUAL:-${EDITOR:-}}
+  if [[ -z "$editor" ]]; then
+    open "$file"
+  elif [[ -n "$line" && "$editor" =~ (vim|nvim|vi|nano|emacs)$ ]]; then
+    "$editor" +"$line" "$file"
+  elif [[ -n "$line" && "$editor" =~ code ]]; then
+    code -g "$file:$line"
+  else
+    $editor "$file"
+  fi
+}
+
+case "${1:-}" in
+  "")
+    open_editor "$(grep -nxF "$day_heading" "$file" | cut -d: -f1)"
+    ;;
+  path)
+    echo "$file"
+    ;;
+  reflect)
+    open_editor "$(grep -nx '## Reflection' "$file" | cut -d: -f1)"
+    ;;
+  publish)
+    git add "$file"
+    if git diff --cached --quiet; then
+      echo "Nothing new to publish."
+    else
+      git commit -qm "Log: $week_id ($(date +'%a %b %-d'))"
+      git push -q
+      echo "Published https://venkman.in/log/$slug"
+    fi
+    ;;
+  -h|--help|help)
+    sed -n '2,9p' "$0" | sed 's/^# \{0,1\}//'
+    ;;
+  *)
+    entry="$*"
+    # Append the bullet at the end of today's section; replace an empty "- " placeholder if present.
+    awk -v h="$day_heading" -v e="- $entry" '
+      { lines[NR]=$0 }
+      END {
+        start=0; stop=NR+1
+        for (i=1;i<=NR;i++) if (lines[i]==h) { start=i; break }
+        for (i=start+1;i<=NR;i++) if (lines[i] ~ /^## /) { stop=i; break }
+        last=start
+        for (i=start+1;i<stop;i++) if (lines[i] ~ /[^[:space:]]/) last=i
+        for (i=1;i<=NR;i++) {
+          if (i==last && lines[i]=="- ") { print e; continue }
+          print lines[i]
+          if (i==last && lines[i]!="- ") print e
+        }
+      }
+    ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+    echo "Added to $day_heading in $file"
+    ;;
+esac

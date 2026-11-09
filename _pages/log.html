@@ -1,0 +1,30 @@
+---
+layout: page
+title: Log
+permalink: /log
+---
+
+<p>A weekly log of what I&rsquo;m trying, learning, and testing at work. Each week has a short entry per day and ends with a reflection on what worked, what didn&rsquo;t, and what&rsquo;s next.</p>
+
+{% assign weeks = site.notes | where_exp: "n", "n.week" | sort: "date" | reverse %}
+{% if weeks.size == 0 %}
+<p class="muted">No weeks logged yet.</p>
+{% else %}
+{% assign current_year = "" %}
+{% for w in weeks %}
+  {% assign y = w.week | slice: 0, 4 %}
+  {% if y != current_year %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2>{{ y }}</h2>
+    <ul class="note-list">
+    {% assign current_year = y %}
+  {% endif %}
+  {% assign days = w.content | split: "<h2" | size | minus: 2 %}
+  <li>
+    <time datetime="{{ w.date | date_to_xmlschema }}">{{ w.date | date: "%b %-d" }}</time>
+    <a class="internal-link" href="{{ site.baseurl }}{{ w.url }}">Week {{ w.week | split: "W" | last | plus: 0 }}</a>
+    <span class="muted small log-days">{% if days > 0 %}{{ days }} day{% if days != 1 %}s{% endif %}{% endif %}</span>
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
