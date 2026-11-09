@@ -159,7 +159,7 @@ hr { border: 0; border-top: 1px solid var(--ui-2); margin: 2.5em 0; }
 
 img { max-width: 100%; height: auto; display: block; margin: 1.5em auto; border-radius: 4px; }
 
-code, pre { font-family: $font-mono; font-size: 0.82em; }
+code, pre { font-family: $font-mono; font-size: 0.8em; }
 :not(pre) > code { background: var(--code-bg); padding: 0.1em 0.3em; border-radius: 3px; }
 pre {
   background: var(--code-bg);
@@ -232,3 +232,70 @@ nav.week-nav {
   a { color: var(--tx-2); }
 }
 .note-list .log-days { margin-left: auto; }
+
+// Thread timelines (assets/threadviz.js)
+:root {
+  --tv-run: #205EA6; --tv-blocked: #AF3029; --tv-wait: #B7B5AC;
+  --tv-msg: #BC5215; --tv-read: #24837B; --tv-write: #BC5215; --tv-bad: #AF3029; --tv-ok: #66800B;
+  --tv-res-bg: #F2F0E5;
+}
+body.theme-dark {
+  --tv-run: #4385BE; --tv-blocked: #D14D41; --tv-wait: #575653;
+  --tv-msg: #DA702C; --tv-read: #3AA99F; --tv-write: #DA702C; --tv-bad: #D14D41; --tv-ok: #879A39;
+  --tv-res-bg: #1C1B1A;
+}
+figure.tviz {
+  margin: 2em 0 2.2em;
+  .tv-stage { position: relative; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  text { font-family: $font-ui; fill: var(--tx-2); font-size: 14px; }
+  .tv-lane { fill: var(--tx); font-weight: 500; font-size: 15px; }
+  .tv-lane-res { fill: var(--tx-2); }
+  .tv-sub { font-size: 12.5px; fill: var(--tx-2); }
+  .tv-axis { stroke: var(--ui-3); stroke-width: 1; }
+  .tv-axis-label { font-size: 11px; fill: var(--tx-3); letter-spacing: 0.05em; }
+  .tv-resource { fill: var(--tv-res-bg); stroke: var(--ui-2); }
+  .tv-seg { stroke-linecap: round; fill: none; }
+  .tv-run { stroke: var(--tv-run); stroke-width: 5; }
+  .tv-blocked { stroke: var(--tv-blocked); stroke-width: 5; stroke-dasharray: 2 7; }
+  .tv-wait { stroke: var(--tv-wait); stroke-width: 3; stroke-dasharray: 1 6; }
+  .tv-arrow { stroke-width: 2; fill: none; }
+  .tv-msg { stroke: var(--tv-msg); }
+  .tv-read { stroke: var(--tv-read); }
+  .tv-write { stroke: var(--tv-write); }
+  .tv-bad { stroke: var(--tv-bad); }
+  .tv-spawn { stroke: var(--tx-3); stroke-width: 1.5; stroke-dasharray: 4 3; }
+  .tv-head { stroke: none; }
+  .tv-head.tv-msg, .tv-head.tv-write { fill: var(--tv-msg); }
+  .tv-head.tv-read { fill: var(--tv-read); }
+  .tv-head.tv-bad { fill: var(--tv-bad); }
+  .tv-head.tv-spawn { fill: var(--tx-3); }
+  .tv-dot { fill: var(--paper); stroke: var(--tx-2); stroke-width: 2; }
+  .tv-cap { stroke: var(--tx-2); stroke-width: 2; }
+  .tv-arrow-label, .tv-seg-label { font-size: 13px; }
+  .tv-msg-text, .tv-write-text { fill: var(--tv-msg); }
+  .tv-read-text { fill: var(--tv-read); }
+  .tv-bad-text, .tv-blocked-text, .tv-mark-bad-text { fill: var(--tv-bad); }
+  .tv-run-text { fill: var(--tv-run); }
+  .tv-mark { stroke: var(--paper); stroke-width: 2; }
+  .tv-mark-ok { fill: var(--tv-ok); }
+  .tv-mark-bad { fill: var(--tv-bad); }
+  .tv-mark-label { font-size: 13.5px; font-weight: 500; }
+  .tv-mark-ok-text { fill: var(--tv-ok); }
+  .tv-cursor { stroke: var(--tv-msg); stroke-width: 1; opacity: 0.5; stroke-dasharray: 3 3; transition: opacity 300ms; }
+  .tv-play {
+    position: absolute; top: 0; right: 0;
+    font: 500 0.75rem $font-ui; color: var(--tx-2);
+    background: var(--bg-2); border: 1px solid var(--ui-2); border-radius: 4px;
+    padding: 0.2em 0.6em; cursor: pointer;
+    &:hover { color: var(--tx); border-color: var(--ui-3); }
+  }
+  .tv-legend {
+    display: flex; flex-wrap: wrap; gap: 0.4em 1.1em;
+    font-family: $font-ui; font-size: 0.75rem; color: var(--tx-2);
+    margin-top: 0.6em;
+    span { display: inline-flex; align-items: center; gap: 0.4em; }
+    svg { width: 22px; height: 10px; display: inline; overflow: visible; }
+  }
+  figcaption { font-family: $font-ui; font-size: 0.85rem; color: var(--tx-2); margin-top: 0.6em; }
+}

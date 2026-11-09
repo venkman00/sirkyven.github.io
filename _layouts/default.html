@@ -15,5 +15,6 @@
     {% include footer.html %}
     {% include link-previews.html wrapperQuerySelector="content" %}
     <script src="{{ site.baseurl }}/assets/site.js"></script>
+    {% if page.viz %}<script src="{{ site.baseurl }}/assets/threadviz.js"></script>{% endif %}
   </body>
 </html>
